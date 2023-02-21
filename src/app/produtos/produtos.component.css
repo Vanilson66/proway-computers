@@ -1,0 +1,41 @@
+section {
+    background-color: rgb(255, 255, 255);
+}
+
+.product_item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.product_item_link {
+    background-color: rgb(255, 255, 255);
+    color: rgb(75, 75, 75);
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    text-decoration: none;
+    box-shadow: 2px 1px 10px rgba(138, 138, 138, 0.11);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.product_item_link img {
+    width: 100%;
+}
+
+.product_item_price-status {
+    font-size: 0.8em;
+}
+
+.product_item_link button {
+    background-color: dodgerblue;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    
+}
