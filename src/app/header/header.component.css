@@ -14,28 +14,45 @@ header a {
     color: white;
 }
 
-header span{
+header h1 {
     display: inline-flex;
+    font-size: 2.3rem;
+}
+header .title{
+    color: gold;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 header ul{
     display: flex;
+    margin: 0;
 }
 
 header ul li {
-    margin: 12px;
+    margin: 0 12px;
     list-style-type: none;
 }
 
+
+
 header form input {
+    width: 170px;
     height: 30px;
     border: none;
     border-radius: 50px;
+    font-size: 0.8rem;
     text-indent: 0.6rem;
+    margin: 5px;
 }
 
 header form button {
     background-color: rgba(240, 248, 255, 0);
     border: 0;
-    margin: -22px;
+    margin: -25px;
 }

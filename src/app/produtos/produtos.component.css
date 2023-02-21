@@ -13,29 +13,52 @@ section {
     background-color: rgb(255, 255, 255);
     color: rgb(75, 75, 75);
     width: 250px;
+    height: 390px;
     text-align: center;
     padding: 10px;
     margin: 15px;
     text-decoration: none;
-    box-shadow: 2px 1px 10px rgba(138, 138, 138, 0.11);
+    box-shadow: 2px 1px 15px rgba(138, 138, 138, 0.11);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product_item_link div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    height: 90%;
 }
+
 .product_item_link img {
     width: 100%;
 }
 
+.product_item_link h2 {
+    font-size: 1.5rem;
+}
+
+.product_item_link span:title-price {
+    display: flex;
+    padding: 5px;
+}
+
+.product_item_link span p{
+    margin: 0;
+}   
+
 .product_item_price-status {
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
 .product_item_link button {
     background-color: dodgerblue;
     color: white;
-    width: 100px;
-    height: 40px;
+    width: 90px;
+    height: 35px;
     border: none;
     
 }
